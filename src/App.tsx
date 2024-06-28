@@ -22,7 +22,7 @@ interface WeatherData {
 }
 
 const API_KEY = '37abf2928cac2d04b56df01542b8af31';
-const GEOCODING_API_URL = 'http://api.openweathermap.org/geo/1.0/direct';
+const GEOCODING_API_URL = 'https://api.openweathermap.org/geo/1.0/direct';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 function App() {
