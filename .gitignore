@@ -1,4 +1,4 @@
 node_modules/
 pnpm-lock.yaml
-deploy-to-github-pages.md
-intructions.md
+0_docs/
+.env

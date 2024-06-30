@@ -21,7 +21,7 @@ interface WeatherData {
     name: string;
 }
 
-const API_KEY = '37abf2928cac2d04b56df01542b8af31';
+const API_KEY = import.meta.env.VITE_WEATHTER_API_KEY;
 const GEOCODING_API_URL = 'https://api.openweathermap.org/geo/1.0/direct';
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
