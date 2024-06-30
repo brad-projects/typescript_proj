@@ -1,0 +1,39 @@
+.editorContainer {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    width: 90%; /* Use 90% of the container width */
+    margin: 0 auto;
+  }
+  
+  .editorSection, .previewSection {
+    flex: 1;
+    min-width: 45%; /* Ensure each section takes at least 45% of the container */
+    max-width: 600px; /* Set a maximum width for each section */
+  }
+  
+  .editorTextarea {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .previewContent {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    min-height: 400px;
+    background-color: white;
+    overflow-y: auto;
+    text-align: left; /* Align preview content to the left */
+  }
+
+  /* Add these new rules to override global styles for h1 and h2 inside preview */
+.previewContent h1,
+.previewContent h2 {
+  text-align: left;
+  color: inherit; /* This will use the default text color */
+}

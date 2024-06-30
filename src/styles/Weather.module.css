@@ -1,0 +1,56 @@
+.weatherApp {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.cityList {
+    margin-bottom: 20px;
+}
+
+.cityButton {
+    width: 100%;
+    text-align: left;
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #3498db; /* Blue border */
+    padding: 12px; /* Increased padding */
+    border-radius: 4px;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    font-size: 16px; /* Increased font size */
+    color: #333; /* Darker text color */
+    font-weight: 500; /* Slightly bolder text */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cityButton:hover {
+    background-color: #e8f4fd; /* Slightly darker blue on hover */
+    border-color: #2980b9; /* Darker blue border on hover */
+    transform: translateY(-1px); /* Slight lift effect on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.weatherDisplay {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.weatherIcon {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: var(--primary-color);
+    text-align: center;  /* Center all h1 and h2 titles */
+    margin-bottom: 20px; /* Add some space below titles */
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .nav {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .nav li {
+    margin: 0 15px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: var(--secondary-color);
+  }
